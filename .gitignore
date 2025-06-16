@@ -1,0 +1,55 @@
+# ====================
+# Unity.gitignore
+# ====================
+
+# Thư mục do Unity tạo lại
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Mm]emoryCaptures/
+[Uu]serSettings/
+Assets/AssetStoreTools*
+
+# Thư mục log
+*.log
+
+# File của hệ điều hành
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# File IDE
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Rider
+.idea/
+*.sln.iml
+
+# VSCode
+.vscode/
+.history/
+
+# JetBrains Rider
+*.DotSettings
+
+# Crash log Unity
+sysinfo.txt
+
+# Unity Cloud Build
+.cloud/
+
+# File môi trường
+.env
