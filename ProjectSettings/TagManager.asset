@@ -39,14 +39,20 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: 1
-    uniqueID: 1678570485
+  - name: 3
+    uniqueID: 4031098227
     locked: 0
   - name: 2
     uniqueID: 527366975
     locked: 0
-  - name: 3
-    uniqueID: 4031098227
+  - name: 1
+    uniqueID: 1678570485
+    locked: 0
+  - name: Stuffs
+    uniqueID: 2952648551
+    locked: 0
+  - name: Water
+    uniqueID: 1442415319
     locked: 0
   - name: Default
     uniqueID: 0
