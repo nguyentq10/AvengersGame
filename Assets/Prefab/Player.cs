@@ -43,8 +43,7 @@ public class Player : MonoBehaviour
         {
             animator.SetFloat("Run", 0f);
         }
-        if (Input.GetMouseButtonDown(0))
-        {
+        if (Input.GetKey(KeyCode.Q))        {
             animator.SetTrigger("Attack");
         }
     }
