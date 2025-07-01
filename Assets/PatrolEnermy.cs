@@ -2,7 +2,9 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 public class PatrolEnermy : MonoBehaviour
-{   public float moveSpeed = 2f;
+{
+    public int maxHealth = 5;
+    public float moveSpeed = 2f;
     public Transform checkPoint; 
     public float distance = 0.5f;
     public LayerMask layerMask; 
@@ -24,6 +26,14 @@ public class PatrolEnermy : MonoBehaviour
     
     void Update()
     {
+        if(FindObjectOfType<GameManager>().isGameActive == false)
+        {
+            return;
+        }
+        if (maxHealth <= 0)
+        {
+            Die();
+        }
         if (Vector2.Distance(transform.position, player.position) <= attackRange)
         {
             inRange = true;
@@ -80,8 +90,21 @@ public class PatrolEnermy : MonoBehaviour
         Collider2D collInfo = Physics2D.OverlapCircle(attackPoint.position, attackRadius, attackLayer);
         if (collInfo)
         {
-            Debug.Log(collInfo.transform.name);
+            if(collInfo.gameObject.GetComponent<Player>() != null)
+            {
+                collInfo.gameObject.GetComponent<Player>().TakeDamage(1); 
+            }
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (maxHealth <= 0)
+        {
+            return;
+        }
+        maxHealth -= damage;
+       
     }
 
     private void OnDrawGizmosSelected()
@@ -100,6 +123,10 @@ public class PatrolEnermy : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
     }
 
-
+    void Die()
+    {
+        Debug.Log("Enermy died");
+        Destroy(this.gameObject);
+    }
     
 }
