@@ -1,8 +1,9 @@
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class Player : MonoBehaviour
 {
+    public Text coinText;
     public int maxHealth = 3;
     public Text health;
     public Animator animator;
@@ -15,6 +16,7 @@ public class Player : MonoBehaviour
     public Transform attackPoint;
     public float attackRadius = 1f;
     public LayerMask attackLayer;
+    public int currentCoin = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -30,6 +32,7 @@ public class Player : MonoBehaviour
             
             Die();
         }
+        coinText.text = currentCoin.ToString();
         health.text = maxHealth.ToString();
         movement = Input.GetAxis("Horizontal");
         if (movement < 0f && facingRight)
@@ -111,6 +114,20 @@ public class Player : MonoBehaviour
         maxHealth -= damage;
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Coin")
+        {
+            currentCoin++;
+            other.gameObject.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Collected");
+            Destroy(other.gameObject, 1f);
+        }
+        if (other.gameObject.tag == "VictoryPoint")
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Level1");
+        }
+
+    }
     void Die()
     {
         Debug.Log("Player died");

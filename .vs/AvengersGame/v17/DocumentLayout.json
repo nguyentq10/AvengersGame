@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\2025 SUMMER\\PRU212\\AvengersGame\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\PRU222\\AvengersGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|c:\\pru222\\avengersgame\\assets\\prefab\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|solutionrelative:assets\\prefab\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|c:\\pru222\\avengersgame\\assets\\script\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -18,10 +31,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
@@ -38,6 +47,40 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneManagement.cs",
+              "DocumentMoniker": "C:\\PRU222\\AvengersGame\\Assets\\Script\\SceneManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SceneManagement.cs",
+              "ToolTip": "C:\\PRU222\\AvengersGame\\Assets\\Script\\SceneManagement.cs",
+              "RelativeToolTip": "Assets\\Script\\SceneManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T14:22:34.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\PRU222\\AvengersGame\\Assets\\Prefab\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefab\\Player.cs",
+              "ToolTip": "C:\\PRU222\\AvengersGame\\Assets\\Prefab\\Player.cs",
+              "RelativeToolTip": "Assets\\Prefab\\Player.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAwH8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T13:01:03.41Z",
+              "EditorCaption": ""
             }
           ]
         }
