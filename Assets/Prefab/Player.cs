@@ -126,12 +126,16 @@ public class Player : MonoBehaviour
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene("Level1");
         }
-
+        if (other.gameObject.tag == "WaterDie")
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Die");
+        }
     }
     void Die()
     {
         Debug.Log("Player died");
         FindObjectOfType<GameManager>().isGameActive = false;
         Destroy(this.gameObject);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Die");
     }
 }

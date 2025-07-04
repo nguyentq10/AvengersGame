@@ -1,9 +1,11 @@
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class ScSceneManagement : MonoBehaviour 
+public class SceneManagement : MonoBehaviour
 {
-    public void LoadScene(string sceneName) 
+    public void LoadLevel()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level1"); // Thay bằng tên scene chơi chính
     }
+
 }
