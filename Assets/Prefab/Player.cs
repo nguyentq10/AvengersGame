@@ -17,10 +17,15 @@ public class Player : MonoBehaviour
     public float attackRadius = 1f;
     public LayerMask attackLayer;
     public int currentCoin = 0;
+    public AudioClip coinSound;
+    public AudioClip attackSound;
+    public AudioClip dameSound;
+    private AudioSource audioSource;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -86,11 +91,13 @@ public class Player : MonoBehaviour
     public void Attack()
     {
         Collider2D collInfo = Physics2D.OverlapCircle(attackPoint.position, attackRadius, attackLayer);
+        audioSource.PlayOneShot(attackSound);
         if (collInfo)
         {
-            if(collInfo.gameObject.GetComponent<PatrolEnermy>() != null)
+            
+            if (collInfo.gameObject.GetComponent<PatrolEnermy>() != null)
             {
-              collInfo.gameObject.GetComponent<PatrolEnermy>().TakeDamage(1);
+                collInfo.gameObject.GetComponent<PatrolEnermy>().TakeDamage(1);
             }
         }
     }
@@ -120,6 +127,7 @@ public class Player : MonoBehaviour
         {
             currentCoin++;
             other.gameObject.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Collected");
+            audioSource.PlayOneShot(coinSound);
             Destroy(other.gameObject, 1f);
         }
         if (other.gameObject.tag == "VictoryPoint")
@@ -134,7 +142,7 @@ public class Player : MonoBehaviour
     void Die()
     {
         Debug.Log("Player died");
-        FindObjectOfType<GameManager>().isGameActive = false;
+        FindFirstObjectByType<GameManager>().isGameActive = false;
         Destroy(this.gameObject);
         UnityEngine.SceneManagement.SceneManager.LoadScene("Die");
     }
