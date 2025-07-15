@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PatrolEnermy : MonoBehaviour
 {
@@ -18,15 +19,18 @@ public class PatrolEnermy : MonoBehaviour
     public Transform attackPoint; 
     public float attackRadius = 1f; 
     public LayerMask attackLayer;
+
+    public AudioClip dieSound;
+    private AudioSource audioSource;
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     
     void Update()
     {
-        if(FindObjectOfType<GameManager>().isGameActive == false)
+        if(FindFirstObjectByType<GameManager>().isGameActive == false)
         {
             return;
         }
@@ -103,6 +107,7 @@ public class PatrolEnermy : MonoBehaviour
         {
             return;
         }
+       
         maxHealth -= damage;
        
     }
@@ -125,8 +130,10 @@ public class PatrolEnermy : MonoBehaviour
 
     void Die()
     {
+        audioSource.PlayOneShot(dieSound);
         Debug.Log("Enermy died");
         Destroy(this.gameObject);
+       
     }
     
 }

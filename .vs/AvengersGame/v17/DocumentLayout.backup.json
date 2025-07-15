@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\PRU222\\AvengersGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|c:\\pru222\\avengersgame\\assets\\script\\startmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\startmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|C:\\PRU222\\AvengersGame\\assets\\patrolenermy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|c:\\pru222\\avengersgame\\assets\\patrolenermy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|solutionrelative:assets\\patrolenermy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|C:\\PRU222\\AvengersGame\\assets\\script\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|C:\\PRU222\\AvengersGame\\assets\\prefab\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,52 +58,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PatrolEnermy.cs",
               "DocumentMoniker": "C:\\PRU222\\AvengersGame\\Assets\\PatrolEnermy.cs",
               "RelativeDocumentMoniker": "Assets\\PatrolEnermy.cs",
               "ToolTip": "C:\\PRU222\\AvengersGame\\Assets\\PatrolEnermy.cs",
               "RelativeToolTip": "Assets\\PatrolEnermy.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBwAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAgwIQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T04:18:54.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SceneManagement.cs",
-              "DocumentMoniker": "C:\\PRU222\\AvengersGame\\Assets\\Script\\SceneManagement.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SceneManagement.cs",
-              "ToolTip": "C:\\PRU222\\AvengersGame\\Assets\\Script\\SceneManagement.cs",
-              "RelativeToolTip": "Assets\\Script\\SceneManagement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T04:13:37.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StartMenuController.cs",
-              "DocumentMoniker": "C:\\PRU222\\AvengersGame\\Assets\\Script\\StartMenuController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\StartMenuController.cs",
-              "ToolTip": "C:\\PRU222\\AvengersGame\\Assets\\Script\\StartMenuController.cs",
-              "RelativeToolTip": "Assets\\Script\\StartMenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T04:10:42.262Z",
+              "WhenOpened": "2025-07-15T03:41:12.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\PRU222\\AvengersGame\\Assets\\Prefab\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Prefab\\Player.cs",
               "ToolTip": "C:\\PRU222\\AvengersGame\\Assets\\Prefab\\Player.cs",
               "RelativeToolTip": "Assets\\Prefab\\Player.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAAwIkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwHYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T13:01:03.41Z"
+              "WhenOpened": "2025-07-15T03:21:24.442Z",
+              "EditorCaption": ""
             }
           ]
         }
