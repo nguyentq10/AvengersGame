@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\PRU222\\AvengersGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|C:\\PRU222\\AvengersGame\\assets\\prefab\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|c:\\pru222\\avengersgame\\assets\\prefab\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|solutionrelative:assets\\prefab\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|c:\\pru222\\avengersgame\\assets\\patrolenermy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|C:\\PRU222\\AvengersGame\\assets\\patrolenermy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13101240-2047-5C0F-2B22-DFC8B5B404ED}|Assembly-CSharp.csproj|solutionrelative:assets\\patrolenermy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "Assets\\PatrolEnermy.cs",
               "ToolTip": "C:\\PRU222\\AvengersGame\\Assets\\PatrolEnermy.cs",
               "RelativeToolTip": "Assets\\PatrolEnermy.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAgwIQAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwFcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T03:41:12.43Z",
               "EditorCaption": ""
@@ -77,7 +77,7 @@
               "RelativeDocumentMoniker": "Assets\\Prefab\\Player.cs",
               "ToolTip": "C:\\PRU222\\AvengersGame\\Assets\\Prefab\\Player.cs",
               "RelativeToolTip": "Assets\\Prefab\\Player.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAkwF0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T03:21:24.442Z",
               "EditorCaption": ""
