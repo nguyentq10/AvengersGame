@@ -8,6 +8,7 @@ TagManager:
   - Coin
   - VictoryPoint
   - WaterDie
+  - Health
   layers:
   - Default
   - TransparentFX

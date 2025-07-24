@@ -20,7 +20,9 @@ public class Player : MonoBehaviour
     public AudioClip coinSound;
     public AudioClip attackSound;
     public AudioClip dameSound;
+   public AudioClip healthsound;
     private AudioSource audioSource;
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -128,6 +130,13 @@ public class Player : MonoBehaviour
             currentCoin++;
             other.gameObject.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Collected");
             audioSource.PlayOneShot(coinSound);
+            Destroy(other.gameObject, 1f);
+        }
+        if (other.gameObject.tag == "Health")
+        {
+            maxHealth += 10;
+           other.gameObject.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Collected Health");
+            audioSource.PlayOneShot(healthsound);
             Destroy(other.gameObject, 1f);
         }
         if (other.gameObject.tag == "VictoryPoint")
